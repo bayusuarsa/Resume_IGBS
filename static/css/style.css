@@ -1,0 +1,156 @@
+html{
+ scroll-behavior:smooth;
+}
+/*Navbar */
+nav{
+  font-family: 'Bebas Neue', cursive;
+  color: #EEEEEE;
+}
+.navbar-brand{
+ font-size:20px;
+ font-family: 'Style Script', cursive;
+ color:white;
+}
+header.fixed-top {
+    width: 100%;
+    position: fixed;
+    transition: 0.3s ease-in-out;
+}
+.scrolled {
+    background-color:#fff;
+    box-shadow: 5px -1px 12px -5px grey;
+}
+
+/*Header*/
+body,html{
+  height: 100%;
+  margin: 0;
+
+}
+
+.head{
+  /* Full height */
+  height: 100%;
+
+  /* Center and Scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover ;
+}
+
+header.head {
+  margin-bottom: 0px;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+
+
+
+/*Heading*/
+.page-heading {
+    position: relative;
+    margin: auto;
+    margin-top:20rem;
+    text-align:center;
+    color:#EEEEEE;
+}
+.title-name {
+ font-family: 'Montserrat', sans-serif;
+}
+.subheading{
+font-family: 'Style Script', cursive;
+}
+/*Card*/
+.card-text{
+  text-align:justify;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.card-title{
+ text-align:center;
+ text-transform:uppercase;
+ height: 2.5rem;
+ font-family: 'Bebas Neue', cursive;
+}
+
+/*table*/
+tr, th{
+ padding:10px;
+ font-family: 'Titillium Web', sans-serif;
+}
+.object{
+ width:25%;
+}
+.time{
+width:15%
+}
+.desc{
+ text-align:justify;
+}
+
+/*introduction*/
+.container-intro{
+  background-color: #082032;
+  position: relative;
+  padding: 100px 50px;
+  color: #EEEEEE;
+}
+
+
+/*Education*/
+.container-education{
+    padding: 1.5rem 2.5rem;
+}
+
+/*Work Experience*/
+.container-work{
+ background-color:#2C394B;
+ padding: 1.5rem 2.5rem;
+}
+.work{
+ color:#EEEEEE;
+}
+.works{
+ color:#EEEEEE;
+ text-align:left;
+ text-transform: capitalize;
+}
+
+/*Skills*/
+.col-6{
+  padding-right:1rem;
+}
+.skills{
+ text-transform:capitalize;
+}
+
+/*contact*/
+.contact{
+ position:relative;
+}
+form{
+font-family: 'Titillium Web', sans-serif;
+}
+
+/*Footer*/
+.container-footer {
+  padding: 1rem 2rem;
+  background-color:#082032;
+}
+
+footer .list-inline-item {
+  margin:2.5rem 2rem;
+  position: relative;
+}
+
+.copyright {
+  font-size: 14px;
+  margin-left: 4rem;
+  text-align: center;
+  font-family: 'Style Script', cursive;
+}
+.fa-inverse{
+  margin-left:2.5rem;
+}
